@@ -1,6 +1,6 @@
 {
   "name": "auto-cpfile-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "type": "module",
   "main": "./dist/bundle.cjs",
