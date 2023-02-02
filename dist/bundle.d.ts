@@ -7,7 +7,7 @@ interface UserOptions {
     path: string;
 }
 
-declare class AutoDeployWebpackPlugin {
+declare class AutoCpfileWebpackPlugin {
     options: UserOptions;
     ssh: NodeSSH;
     constructor(userOptions: UserOptions);
@@ -16,4 +16,4 @@ declare class AutoDeployWebpackPlugin {
     uploadFiles(localPath: string, remotePath: string): Promise<void>;
 }
 
-export { AutoDeployWebpackPlugin };
+export { AutoCpfileWebpackPlugin };
