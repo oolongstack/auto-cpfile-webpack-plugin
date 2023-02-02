@@ -1,0 +1,27 @@
+{
+  "name": "auto-cpfile-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/bundle.cjs",
+  "module": "./dist/bundle.js",
+  "types": "./dist/bundle.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup --config rollup.config.js --watch",
+    "build": "rollup --config rollup.config.js"
+  },
+  "author": "cjl",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.11.18",
+    "node-ssh": "^13.0.1",
+    "rollup": "^3.12.1",
+    "rollup-plugin-dts": "^5.1.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
