@@ -1,11 +1,13 @@
 {
   "name": "auto-cpfile-webpack-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "type": "module",
   "main": "./dist/bundle.cjs",
   "module": "./dist/bundle.js",
   "types": "./dist/bundle.d.ts",
+  "homepage": "https://github.com/oolongstack/auto-cpfile-webpack-plugin",
+  "repository": "https://github.com/oolongstack/auto-cpfile-webpack-plugin.git",
   "files": [
     "dist"
   ],
