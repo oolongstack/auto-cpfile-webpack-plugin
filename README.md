@@ -9,8 +9,10 @@ const { AutoCpfileWebpackPlugin } = require('auto-cpfile-webpack-plugin')
 module.exports = {
   plugins: [
     new AutoCpfileWebpackPlugin({
-      host: '', // 主机名
-      
+      host: '', // 服务器主机名
+      username: '', //服务器用户名
+      password: '', // 服务器密码
+      path: '' // 文件上传到的服务器路径
     })
   ]
 }
