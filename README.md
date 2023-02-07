@@ -5,6 +5,7 @@ pnpm add auto-cpfile-webpack-plugin --save-dev
 ```
 ``` javascript
 const { AutoCpfileWebpackPlugin } = require('auto-cpfile-webpack-plugin')
+
 module.exports = {
   plugins: [
     new AutoCpfileWebpackPlugin({
