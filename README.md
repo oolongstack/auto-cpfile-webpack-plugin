@@ -1,5 +1,6 @@
 # auto-cpfile-webpack-plugin
 webpack打包后自动上传文件到服务器
+担心产生安全问题的可以不用
 ```javascript
 pnpm add auto-cpfile-webpack-plugin --save-dev
 ```
